@@ -6,7 +6,7 @@ role :web, "74.207.244.236"
 role :db,  "74.207.244.236", :primary => true
 
 default_run_options[:pty] = true
-set :repository,  "git://github.com/spacecow/dynamic-login.git"
+set :repository,  "git://github.com/spacecow/amon.git"
 set :scm, "git"
 set :branch, "master"
 set :deploy_via, :remote_cache

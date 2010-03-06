@@ -7,15 +7,15 @@ class SessionsController < ApplicationController
   end
   
   def create
-    user = User.authenticate(params[:login], params[:password])
-    if user
-      session[:user_id] = user.id
-      flash[:notice] = t('notice.logged_in')
-      redirect_to_target_or_default(root_url)
-    else
-      flash.now[:error] = t('error.invalid_login')
-      render :action => 'new'
-    end
+    #user = User.authenticate(params[:login], params[:password])
+    #if user
+    #  session[:user_id] = user.id
+    #  flash[:notice] = t('notice.logged_in')
+    #  redirect_to_target_or_default(root_url)
+    #else
+    #  flash.now[:error] = t('error.invalid_login')
+    #  render :action => 'new'
+    #end
   end
   
   def destroy

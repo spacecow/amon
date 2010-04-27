@@ -4,7 +4,8 @@ en:
   admin_subtitle: "Fill in username and password to log in"
   admin_title: "Admin log in"
   body: "Body"
-  contact: "Contact us"
+  company: "Company"
+  contact_me: "Contact me"
   create: "Create"
   delete: "Delete"
   edit: "Edit"
@@ -17,6 +18,7 @@ en:
   listing: "Listing {{object}}"
   login: "Log in"
   logout: "Log out"
+  mail_message: "Message"
   mypage: "MyPage"
   name: "Name"
   navlabel: "Navigation Label"
@@ -25,10 +27,14 @@ en:
   parent_page: "Parent Page"
   password: "Password"
   password_confirmation: "Password Confirmation"
+  phone: "Phone"
   position: "Position"
+  send: "Send"
   show: "Info"
   signup: "Sign up"
+  subject: "Subject"
   subtitle: "Subtitle"
+  sure?: "Are you sure?"
   title: "Title"
   update: "Update"
   user: "User"
@@ -46,6 +52,7 @@ en:
     no_account?: "Don't have an account?"
     signup_thanks: "Thank you for signing up! You are now logged in."
     sure?: "Are you sure?"
+    thanks_for_message: "Thanks for your message."
   notice:
     created: "Successfully created {{object}}"
     deleted: "Successfully deleted {{object}}"
@@ -67,7 +74,13 @@ en:
       position: "Pages will be listed in ascending order in the navigation bar from left to right according to this number."
       subtitle: "The subtitle of the page."
       title: "The title of the page."
-      
+  
+  messages:
+    title: "Messages"
+    index_subtitle: "List of messages"
+    new_title: "Contact me"
+    new_subtitle: "Fill in the contact form"
+    
   users:
     title: "Users"
     message:

@@ -1,0 +1,24 @@
+<% title t('messages.title') %>
+<% subtitle t('messages.index_subtitle') %>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Company</th>
+    <th>Phone</th>
+    <th>Subject</th>
+    <th>Body</th>
+  </tr>
+  <% for message in @messages %>
+    <tr>
+      <td><%=h message.name %></td>
+      <td><%=h message.email %></td>
+      <td><%=h message.company %></td>
+      <td><%=h message.phone %></td>
+      <td><%=h message.subject %></td>
+      <td><%=h message.body %></td>
+      <td><%= link_to t(:delete), admin_message_path(message), :method => :delete, :confirm => t(:sure?) %></td>
+    </tr>
+  <% end %>
+</table>

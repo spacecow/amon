@@ -18,7 +18,7 @@ class UsersController < ApplicationController
       render :action => 'new'
     end
   end
-  
+
 private
 
   def find_page_by_id_or_username

@@ -5,8 +5,9 @@ class Ability
 		if user == "admin"
 			can :manage, :all
 		elsif
-			can :create, User
+			can [:create,:contact], User
 			can :show, Page
+			can :create, Message
 			
 			user ||= User.new
 			if user.role? :registrant

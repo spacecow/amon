@@ -22,9 +22,11 @@
           	<li><%= link_to t(:logout)+" <span class=\"small\">(admin)</span>", admin_logout_path %></li>
           	<li><%= link_to t('users.title'), admin_users_path %></li>
           	<li><%= link_to t('pages.title'), admin_pages_path %></li>
+          	<li><%= link_to t('messages.title'), admin_messages_path %></li>
           
           <% elsif session[:user_id].blank? %>
             <li><%# link_to t(:login), login_path %></li>
+            <li <%= "class='current'" if request.request_uri == new_message_path %>><%= link_to t(:contact_me), new_message_path %></li>
 
           <% else %>
             <li><%= link_to t(:logout)+" <span class=\"small\">(#{current_user.username})</span>", logout_path %></li>

@@ -1,3 +1,6 @@
+Factory.define :message do |f|
+end
+
 Factory.define :page do |f|
 	f.sequence(:name){|n| "name#{n}" }
 	f.sequence(:navlabel){|n| "navlabel#{n}" }

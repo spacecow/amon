@@ -6,6 +6,10 @@ form.formtastic fieldset.inputs ol li label {
   text-align: right;
   padding-right: 1em;
 }
+form.formtastic fieldset.inputs ol li label abbr {
+  font-weight: bold;
+  color: #c60071;
+}
 form.formtastic fieldset.inputs ol li input {
   margin-right: 26em;
   float: left;
@@ -18,8 +22,8 @@ form.formtastic fieldset.inputs ol li select {
   margin-right: 26em;
   float: left;
 }
-form.formtastic fieldset.inputs ol li input { width: 20em; }
-form.formtastic fieldset.inputs ol li textarea { width: 20em; }
+form.formtastic fieldset.inputs ol li input { width: 21em; }
+form.formtastic fieldset.inputs ol li textarea { width: 21em; }
 form.formtastic fieldset.inputs ol li textarea {
   height: 7em;
   resize: none;

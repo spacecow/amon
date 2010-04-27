@@ -1,5 +1,7 @@
 @label_margin: 1em;
 @label_width: 12em;
+@light_pink: #F6A2C6;
+@dark_pink:  #C60071;
 
 form.formtastic{
 	fieldset.inputs{
@@ -12,13 +14,17 @@ form.formtastic{
 					width:@label_width;
 					text-align:right;
 					padding-right:@label_margin;
+					abbr{
+						font-weight:bold;
+						color:@dark_pink;	
+					}
 				}
 				input, textarea, select{
 					margin-right:26em;
 					float:left;
 				}
 				input, textarea{
-					width:20em;
+					width:21em;
 				}
 				textarea{
 					height:7em;

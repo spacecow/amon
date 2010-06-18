@@ -48,7 +48,7 @@ div#root div#header ul#navigation li ul li a {
   padding-bottom: 0;
 }
 div#root div#header ul#navigation li.current a { color: #c60071; }
-div#root div#contents table thead tr th { background: #f6a2c6; }
+div#root div#contents div#yield table thead tr th { background: #f6a2c6; }
 div#main { width: 31em; }
 div#top_links { margin-bottom: 1em; }
 div#bottom_links { margin-top: 1em; }
